@@ -1,0 +1,48 @@
+{
+  "name": "Cross the bricks",
+  "version": "1.0.0",
+  "description": "Frogger like HTML5 Game",
+  "author": "Forrest",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.24.4",
+    "browserify": "^16.2.2",
+    "browserify-shim": "^3.8.14",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-if": "^2.0.2",
+    "gulp-minifier": "^1.2.2",
+    "gulp-rename": "^1.3.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-tap": "^1.0.1",
+    "gulp-uglify": "^3.0.0",
+    "run-sequence": "^2.2.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true
+    },
+    "rules": {
+      "semi": [
+        2,
+        "always"
+      ],
+      "quotes": [
+        2,
+        "single"
+      ]
+    }
+  }
+}

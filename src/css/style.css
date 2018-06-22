@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Walibi';
+    src: url('../fonts/walibi-holland.ttf');
+}
+
+body {
+    text-align: center;
+}
+
+canvas {
+    max-height: 606px;
+    max-width: 505px;
+
+}
